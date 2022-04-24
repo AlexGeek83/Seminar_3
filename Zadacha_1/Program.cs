@@ -21,3 +21,33 @@ else
     }
     else 
         System.Console.WriteLine("3-я четверть");
+
+        //================================
+        // 2-й вариант с помощью функции
+
+//        void PrintPlane(double x, double y);
+//        if (x > 0)
+//{
+//    if (y > 0)
+//    {
+//        System.Console.WriteLine("1-я четверть");
+//    }
+//    else 
+//        System.Console.WriteLine("4-я четверть");
+//}
+//else 
+//    if (y > 0)
+//    {
+//        System.Console.WriteLine("2-я четверть");
+//    }
+//    else 
+//        System.Console.WriteLine("3-я четверть");
+//        void Main (string[] args)
+//        {
+//            PrintPlane(10, 12);
+//            PrintPlane(-10, 12);
+//            PrintPlane(-10, -12);
+//            PrintPlane(10, -12);
+ //       }
+
+
