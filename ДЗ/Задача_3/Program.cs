@@ -3,9 +3,16 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+int N = 5;
+int i = 1;
+int kub;
+
+while (i <= N)
+{
+    kub = i*i*i;
+    System.Console.WriteLine($"число {i} в кубе = {kub}.");
+    i++;
+}
 
 
 
-
-
-Console.WriteLine("Hello, World!");
